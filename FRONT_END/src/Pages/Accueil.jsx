@@ -1,5 +1,5 @@
 import NavBar from "../Component/NavBar";
-import "./Accueil.css";
+import "./Style.css";
 import Panier from "../Component/Panier";
 function Accueil() {
   return (

@@ -2,8 +2,10 @@ function Panier () {
 
     return(
         <div>
-            <h1>VOTRE PANIER :</h1>
-            <article>
+                        <h1 className="VPanier" >VOTRE PANIER :</h1>
+
+        <div className="articleETaside" >
+            <article className="articl" >
             <table>
                 <thead>
                     <tr>
@@ -14,22 +16,24 @@ function Panier () {
                 </thead>
                 <tbody>
                     <tr>
-                    /* ICI OU LE NOMBRE DES LIGNES VA S'AUGMENTER AVEC LAJOUT DES PRODUIT  */
+
+
+                        
                     </tr>
                 </tbody>
                 <tfoot>
                     <tr>
                         <td>DISPOSER VOUS D'UN CODE PROMO OU UN BON D'ACHAT ?</td>
-                        <td>ENTRER LE ICI </td>
+                        <td>ENTRER LE ICI </td  >
                     </tr>
                 </tfoot>
              </table>
             </article>
-            <aside>
+            <aside className="side" >
                 <h1>TOTAL TTC : </h1>
             </aside>
         </div>
-
+        </div>
 
 
 

@@ -41,3 +41,17 @@ body {
   margin-left: 10px;
   cursor: pointer;
 }
+.side {
+   flex: 1;
+}
+.VPanier{
+  text-align: left;
+  margin-left: 12%;
+  margin-top: 12%;
+}
+.articleETaside{
+  display: flex;
+}
+.articl{
+  flex: 2;
+}

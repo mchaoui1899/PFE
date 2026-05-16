@@ -1,5 +1,8 @@
 import { useEffect } from "react";
 import Accueil from "./Pages/Accueil";
+import {BrowserRouter ,Route , Link ,Routes } from 'react-router-dom' ;
+import NavBar from "./Component/NavBar";
+import Panier from "./Component/Panier";
 
 function App() {
 
@@ -13,9 +16,15 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <Accueil />
-    </div>
+    <BrowserRouter>
+    
+
+    <Routes>
+       <Route path="/" element={<Accueil />} />
+        <Route path="/Panier" element={<Panier />} />
+      </Routes>
+   
+    </BrowserRouter>
   );
 }
 
