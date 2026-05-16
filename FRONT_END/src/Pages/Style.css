@@ -41,8 +41,11 @@ body {
   margin-left: 10px;
   cursor: pointer;
 }
-.side {
+aside {
    flex: 1;
+     border: 2px solid black;
+     border-radius: 10px;
+    text-align: center;
 }
 .VPanier{
   text-align: left;
@@ -54,4 +57,12 @@ body {
 }
 .articl{
   flex: 2;
+  border: 2px solid black ;
+  border-radius: 10px;
+  margin-right: 250px;
+
+}
+
+tbody td  {
+  border-bottom: 2px solid black;
 }
