@@ -3,7 +3,8 @@ import Accueil from "./Pages/Accueil";
 import {BrowserRouter ,Route , Link ,Routes } from 'react-router-dom' ;
 import NavBar from "./Component/NavBar";
 import Panier from "./Component/Panier";
-
+import Profil from "./Component/Profil";
+import Settings from "./Component/Settings";
 function App() {
 
   useEffect(() => {
@@ -17,11 +18,14 @@ function App() {
 
   return (
     <BrowserRouter>
-    
+  <NavBar/>    
 
     <Routes>
        <Route path="/" element={<Accueil />} />
         <Route path="/Panier" element={<Panier />} />
+        <Route path="/Settings" element={<Settings/>} ></Route>
+        <Route path="/Profil" element={<Profil/>} ></Route>
+
       </Routes>
    
     </BrowserRouter>
