@@ -25,7 +25,7 @@ function App() {
         <Route path="/Panier" element={<Panier />} />
         <Route path="/Settings" element={<Settings/>} ></Route>
         <Route path="/Profil" element={<Profil/>} ></Route>
-
+          
       </Routes>
    
     </BrowserRouter>
