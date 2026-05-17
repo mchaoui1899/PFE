@@ -8,25 +8,6 @@ function Accueil() {
       <div className="UP" >
       <fieldset>
       <h1 className="titreAccueil" >UNIVERS POPULAIRES </h1>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
-      <p>UP</p>
       </fieldset>
       </div>
       <div className="RPV" >

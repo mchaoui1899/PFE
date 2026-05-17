@@ -12,7 +12,8 @@ function NavBar() {
 
         setMenu(!menu); 
   };
-
+  const [filtre , setFiltre ]=useState(false);
+  const handleFilter = () => { setFiltre(!filtre)  };
 
   return (
     <nav className="navBar">
@@ -27,8 +28,18 @@ function NavBar() {
         <li> TABLETTE</li> 
         </ul>)}
       <div className="search">
-        <input className="filtrer" type="button" value="TOUS LES UNIVERS  ↓ "  />
+        <input className="filtrer" type="button" value="TOUS LES UNIVERS  ↓ " onClick={handleFilter}  />
+        { filtre && (
+            <ul className="filtreListe" > 
+        <li> TELEPHINES</li> 
+        <li> INFORMATOQUE</li> 
+        <li> SON</li> 
+        <li> CONNECTOQUES</li> 
+        </ul>
+
+        )  }
         <input className="chercher" type="text" placeholder="CHERCHER PAR NOM DU PRODUIT, CATÉGORIE OU PAR MARQUE" />
+        <button class="soumissionButton"> <Link to="/Resultats">🔍</Link> </button>
       </div>
 
       <div className="icons">

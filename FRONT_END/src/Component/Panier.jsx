@@ -1,6 +1,9 @@
 import NavBar from "./NavBar";
 function Panier () {
 
+        const handlePanier = () =>{
+            console.log('Panier Supprimée ! ');
+        };
     return(
         <div>
                         <h1  className="VPanier" >VOTRE PANIER :</h1>
@@ -14,7 +17,7 @@ function Panier () {
                     <th>PRIX</th>
                     <th>QUANTITÉE</th> 
                     <th>SOUS TOTAL</th>
-                    <th> 🗑</th>
+                    <th className="trash" onClick={handlePanier} > 🗑</th>
                     </tr>
                 </thead>
                 <tbody>

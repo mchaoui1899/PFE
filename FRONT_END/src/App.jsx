@@ -5,6 +5,7 @@ import NavBar from "./Component/NavBar";
 import Panier from "./Component/Panier";
 import Profil from "./Component/Profil";
 import Settings from "./Component/Settings";
+import Resultats from "./Component/Resultats";
 function App() {
 
   useEffect(() => {
@@ -25,7 +26,7 @@ function App() {
         <Route path="/Panier" element={<Panier />} />
         <Route path="/Settings" element={<Settings/>} ></Route>
         <Route path="/Profil" element={<Profil/>} ></Route>
-          
+          <Route path="/Resultats" element={<Resultats/>}   ></Route>
       </Routes>
    
     </BrowserRouter>
